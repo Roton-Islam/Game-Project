@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;500;700;900&display=swap");
+/* reset code and common code  starts*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+/* reset code and common code ends */
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+
+.card {
+  width: 32rem;
+  height: 20rem;
+  background-color: #fff;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  color: black;
+  box-shadow: 0.1rem 0.1rem 0.1rem #222;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0.1rem 0.2rem 0.2rem #222;
+}
+
+input {
+  border: none;
+  border: 0.1rem solid blue;
+  border-radius: 0.6rem;
+  padding: 0.2rem;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: 45%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 3.5rem 1rem 0;
+}
+
+p {
+  text-align: center;
+}
+
+.large {
+  font-size: 1.5rem;
+  columns: black;
+}
